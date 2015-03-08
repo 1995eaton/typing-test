@@ -1,0 +1,33 @@
+html, body {
+  font-family: Helvetica, 'Helvetica Neue', Neue, sans-serif, Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#typing-area {
+  background-color: #d4d4d4;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 16pt;
+  width: 750px;
+  margin: 10px;
+}
+
+.word {
+  margin-right: 7px;
+  display: inline-block;
+}
+
+.word-active {
+  text-decoration: underline;
+}
+
+.word-incorrect {
+  color: red;
+}
+
+.word-correct {
+  color: green;
+}
