@@ -61,9 +61,10 @@ var TypingTest = (function() {
   return function(text) {
     gameActive = true;
     typingArea.innerHTML = '';
+    typingInput.value = '';
     currentText = text.split(/[\s\n]+/);
     currentWord = 0;
-    wordElement = [];
+    wordElements = [];
     startTime = null;
     totalWords = currentText.length;
     currentText.forEach(function(word) {
